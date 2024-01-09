@@ -17,7 +17,7 @@ body {
   padding-right: calc(50% - 600px);
 }
 .main__header-title {
-  color: #FFF;
+  color: #fff;
   font-size: 64px;
   font-style: normal;
   font-weight: 700;
@@ -26,7 +26,7 @@ body {
   padding-bottom: 32px;
 }
 .main__header-text {
-  color: #FFF;
+  color: #fff;
   font-size: 18px;
   font-weight: 300;
   line-height: 32px;
@@ -35,11 +35,10 @@ body {
 .main__header-button {
   width: 234.063px;
   height: 48.603px;
-  flex-shrink: 0;
   border-radius: 30px;
   background: #9C0332;
   font-family: inherit;
-  color: #FFF;
+  color: #fff;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -68,7 +67,7 @@ body {
   left: 32px;
 }
 .middle__box-text {
-  color: #FFF;
+  color: #fff;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;

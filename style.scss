@@ -1,3 +1,6 @@
+$color-text: #fff;
+$color-button: #9C0332;
+
 * {
     margin: 0;
     padding: 0;
@@ -18,7 +21,7 @@ body {
         padding-right: calc(50% - 600px);
 
         &-title {
-            color: #FFF;
+            color: $color-text;
             font-size: 64px;
             font-style: normal;
             font-weight: 700;
@@ -28,8 +31,8 @@ body {
         }
 
         &-text {
-            color: #FFF;
-            font-size: 18px;         
+            color: $color-text;
+            font-size: 18px;
             font-weight: 300;
             line-height: 32px;
             padding-bottom: 44px;
@@ -38,11 +41,10 @@ body {
         &-button {
             width: 234.063px;
             height: 48.603px;
-            flex-shrink: 0;
             border-radius: 30px;
-            background: #9C0332;
+            background: $color-button;
             font-family: inherit;
-            color: #FFF;
+            color: $color-text;
             font-size: 18px;
             font-style: normal;
             font-weight: 400;
@@ -63,13 +65,10 @@ body {
         padding-bottom: 128px;
         display: flex;
         gap: 32px;
-       
+
 
         &-play {
             position: relative;
-          
-
-
         }
 
         &-lead {
@@ -79,14 +78,17 @@ body {
         }
 
         &-text {
-            color: #FFF;
+            color: $color-text;
             font-size: 24px;
             font-style: normal;
             font-weight: 600;
             line-height: 32px;
         }
-        &-img{
+
+        &-img {
             border-radius: 16px;
         }
     }
 }
+
+@import "vars";
