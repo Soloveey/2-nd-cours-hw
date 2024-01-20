@@ -53,7 +53,7 @@ body {
     }
 }
 
-.middle {
+.middle {padding-top: 128px;
     background-image: url(img/middle__img.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -91,4 +91,4 @@ body {
     }
 }
 
-@import "vars";
+@import"mobile";
