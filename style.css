@@ -43,6 +43,10 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  transition: 0.3s;
+}
+.main__header-button:hover {
+  background: #EB443F;
 }
 
 .middle {
@@ -61,6 +65,11 @@ body {
 }
 .middle__box-play {
   position: relative;
+  transition: all 0.1s;
+}
+.middle__box-play:hover {
+  border-radius: 16px;
+  border: 3px solid #44D2FF;
 }
 .middle__box-lead {
   position: absolute;
