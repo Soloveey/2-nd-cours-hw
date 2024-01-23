@@ -75,9 +75,11 @@ body {
             transition: all 0.1s;
         }
         &-play:hover{
+           
+            box-shadow: 0 0 0 3px #44D2FF; 
             border-radius: 16px;
-            border: 3px solid #44D2FF;
         }
+       
 
         &-lead {
             position: absolute;
@@ -100,3 +102,5 @@ body {
 }
 
 @import"mobile";
+@import"tablet";
+

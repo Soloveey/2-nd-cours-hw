@@ -1,10 +1,8 @@
-@media (max-width: 767px) {
+@media(min-width: 426px) and  (max-width: 1024px) {
     .center {
-        padding-left: 16px;
-        padding-right: 16px;
-
+        padding-left: calc(50% - 359px);
+        padding-right: calc(50% - 359px);
     }
-
     .main {
         &__header {
             height: 735px;
@@ -24,6 +22,7 @@
                 padding: 0;
                 font-size: 14px;
                 line-height: 22px;
+                width: 343px;
 
                 br {
                     display: none;
@@ -34,11 +33,11 @@
 
     .middle {
         &__box {
-            flex-direction: column;
-
-            &-img {
-                width: 100%;
-            }
+         display: flex;
+         flex-wrap: wrap;
+        
+        &-img{width: 343px;}
+           
         }
     }
 }
