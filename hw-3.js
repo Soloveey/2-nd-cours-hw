@@ -20,7 +20,7 @@ if (numberC > 0 && numberC < 10) {
 // Задание 3
 let numberD = 10;
 let numberE = 4;
-numberD > 100 || numberE > 100 ? console.log("Верно"): console.log("неверно");
+numberD > 100 || numberE > 100 ? console.log("Верно") : console.log("неверно");
 
 
 // Задание 4
@@ -71,7 +71,9 @@ switch (monthNumber) {
         console.log("Зима");
         break;
     default:
-        if (monthNumber > 12 || monthNumber < 1 || monthNumber === String(monthNumber))
-            console.log("Такого месяца не существует")
-            break;
-        }
+        if (monthNumber > 12 || monthNumber < 1)
+            console.log("Такого месяца не существует");
+        else (monthNumber === String(monthNumber))
+        console.log("Введите номер месяца");
+        break;
+}
