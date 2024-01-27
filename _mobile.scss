@@ -1,0 +1,44 @@
+@media (max-width: 767px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+
+    }
+
+    .main {
+        &__header {
+            height: 735px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            gap: 33px;
+
+            &-title {
+                padding: 0;
+                font-size: 32px;
+            }
+
+            &-text {
+                padding: 0;
+                font-size: 14px;
+                line-height: 22px;
+
+                br {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .middle {
+        &__box {
+            flex-direction: column;
+
+            &-img {
+                width: 100%;
+            }
+        }
+    }
+}

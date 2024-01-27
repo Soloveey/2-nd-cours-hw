@@ -1,0 +1,43 @@
+@media(min-width: 426px) and  (max-width: 1024px) {
+    .center {
+        padding-left: calc(50% - 359px);
+        padding-right: calc(50% - 359px);
+    }
+    .main {
+        &__header {
+            height: 735px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            gap: 33px;
+
+            &-title {
+                padding: 0;
+                font-size: 32px;
+            }
+
+            &-text {
+                padding: 0;
+                font-size: 14px;
+                line-height: 22px;
+                width: 343px;
+
+                br {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .middle {
+        &__box {
+         display: flex;
+         flex-wrap: wrap;
+        
+        &-img{width: 343px;}
+           
+        }
+    }
+}

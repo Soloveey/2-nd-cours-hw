@@ -49,11 +49,15 @@ body {
             font-style: normal;
             font-weight: 400;
             line-height: normal;
+            transition: 0.3s;
+        }
+        &-button:hover{
+            background: #EB443F;
         }
     }
 }
 
-.middle {
+.middle {padding-top: 128px;
     background-image: url(img/middle__img.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -64,12 +68,18 @@ body {
     &__box {
         padding-bottom: 128px;
         display: flex;
-        gap: 32px;
-
+        gap: 32px;        
 
         &-play {
             position: relative;
+            transition: all 0.1s;
         }
+        &-play:hover{
+           
+            box-shadow: 0 0 0 3px #44D2FF; 
+            border-radius: 16px;
+        }
+       
 
         &-lead {
             position: absolute;
@@ -91,4 +101,6 @@ body {
     }
 }
 
-@import "vars";
+@import"mobile";
+@import"tablet";
+
