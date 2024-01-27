@@ -73,7 +73,7 @@ switch (monthNumber) {
     default:
         if (monthNumber > 12 || monthNumber < 1)
             console.log("Такого месяца не существует");
-        else (monthNumber === String(monthNumber))
+        else (monthNumber === isNaN(monthNumber))
         console.log("Введите номер месяца");
         break;
 }
