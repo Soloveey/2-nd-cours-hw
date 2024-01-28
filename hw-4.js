@@ -21,18 +21,16 @@ while (iN <= 22) {
 }
 
 // Задание 4 
-let salaryKolia = Number(200);
-let salaryVasia = Number(300);
-let salaryPetia = Number(400);
 
 const man = {
-    Коля: `зарплата ${salaryKolia} долларов.`,
-    Вася: `зарплата ${salaryVasia} долларов.`,
-    Петя: `зарплата ${salaryPetia} долларов.`,
+    Коля: `200`,
+    Вася: `300`,
+    Петя: `400`,
 }
 for (const key in man) {
-    console.log(`${key} - ${man[key]}`);
+    console.log(`${key} - зарплата ${man[key]} долларов.`);
 }
+
 
 
 // Задание 5
@@ -46,10 +44,6 @@ while (n > 50) {
     
 }
 //Задание 6
-for (let friday = 2; friday <= 31 ; friday = friday + 7){
-    if (friday ) {
-        console.log(`Сегодня пятница ${friday} число. Необходимо подготовить отчет.`);
-    } else {`Сегодня пятница ${friday} число. Необходимо подготовить отчет.`
-        
-    }
+for (let friday = 2; friday <= 31 ; friday = friday + 7){   
+    console.log(`Сегодня пятница ${friday} число. Необходимо подготовить отчет.`);    
 }
