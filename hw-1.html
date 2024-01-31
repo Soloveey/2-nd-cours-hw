@@ -7,7 +7,8 @@
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -15,8 +16,9 @@
     <div class="main">
         <header class="main__header center">
             <h1 class="main__header-title">Добро пожаловать <br> на мой сайт !</h1>
-            <p class="main__header-text">Вам предстоит пройти несколько увлекательных <br> игр. Если готов нажимай <b>поехали</b>  и
-              <b>приступай</b>  
+            <p class="main__header-text">Вам предстоит пройти несколько увлекательных <br> игр. Если готов нажимай
+                <b>поехали</b> и
+                <b>приступай</b>
             </p>
             <button class="main__header-button">Поехали</button>
         </header>
@@ -24,25 +26,45 @@
     <section class="middle center">
         <div class="middle__box">
             <div class="middle__box-play">
-                <a href="#" class="middle__box-link"><img class="middle__box-img" src="img/middle__link-left.jpg" alt="игра1"></a>
+                <a href="#" class="middle__box-link"><img class="middle__box-img" src="img/middle__link-left.jpg"
+                        alt="игра1"></a>
                 <div class="middle__box-lead">
                     <p class="middle__box-text">Игра 1</p>
                 </div>
             </div>
             <div class="middle__box-play">
-                <a href="#" class="middle__box-link"><img class="middle__box-img" src="img/middle__link-center.jpg" alt="игра1"></a>
+                <a href="#" class="middle__box-link"><img class="middle__box-img" src="img/middle__link-center.jpg"
+                        alt="игра1"></a>
                 <div class="middle__box-lead">
                     <p class="middle__box-text">Игра 2</p>
                 </div>
             </div>
             <div class="middle__box-play">
-                <a href="#" class="middle__box-link"><img class="middle__box-img" src="img/middle__link-right.jpg" alt="игра1"></a>
+                <a href="#" class="middle__box-link"><img class="middle__box-img" src="img/middle__link-right.jpg"
+                        alt="игра1"></a>
                 <div class="middle__box-lead">
                     <p class="middle__box-text">Игра 3</p>
                 </div>
             </div>
         </div>
     </section>
+    <section class="top__block">
+        <div class="season center">
+            <div class="season__box">
+                <h2 class="season__box-title">Времена года!</h2>
+            </div>
+            <p class="season__box-text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к
+                какому времени года он относится
+            </p>
+            <button onclick="seasonYears()" class="season__box-button">Играть!</button>
+        </div>
+        <div class="span"></div>
+        <div class="advertisement">
+            <img class="advertisement__picture" src="img/advertisement__picture.png" alt="Картинка">
+            <img class="advertisement__picture-mobile" src="img/advertisement__picture-mobile.png" alt="Картинка">
+        </div>
+    </section>
+    <script src="script.js"></script>
 </body>
 
 </html>
