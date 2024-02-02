@@ -36,6 +36,7 @@
         &__box {
             display: flex;
             flex-wrap: wrap;
+            align-content: center;
 
             &-img {
                 width: 343px;

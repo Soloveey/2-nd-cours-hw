@@ -77,21 +77,19 @@ console.log(messageUser(enterNumber));
 
 //Задание 7
 function getRadiusСircle() {
-    return this.pi * this.radius ** 2;
+    return 3.14 * this.radius ** 2;
 }
 function getPerimeterСircle() {
-    return this.two * this.pi * this.radius ** 2;
+    return this.two * 3.14 * this.radius ** 2;
 }
 const circle1 = {
     radius: 2,
-    pi: 3.14,
     two: 2,
     getArea: getRadiusСircle,
     getPerimeter: getPerimeterСircle,
 };
 const circle2 = {
     radius: 3,
-    pi: 3.14,
     two: 2,
     getArea: getRadiusСircle,
     getPerimeter: getPerimeterСircle,

@@ -242,6 +242,7 @@ body {
   .middle__box {
     display: flex;
     flex-wrap: wrap;
+    align-content: center;
   }
   .middle__box-img {
     width: 343px;
