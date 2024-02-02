@@ -1,8 +1,9 @@
-@media(min-width: 426px) and  (max-width: 1024px) {
+@media(min-width: 426px) and (max-width: 1024px) {
     .center {
         padding-left: calc(50% - 359px);
         padding-right: calc(50% - 359px);
     }
+
     .main {
         &__header {
             height: 735px;
@@ -33,11 +34,57 @@
 
     .middle {
         &__box {
-         display: flex;
-         flex-wrap: wrap;
-        
-        &-img{width: 343px;}
-           
+            display: flex;
+            flex-wrap: wrap;
+            align-content: center;
+
+            &-img {
+                width: 343px;
+            }
+
+        }
+    }
+
+    .span {
+        display: none;
+    }
+
+    .top__block {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 127px;
+    }
+
+    .season {
+        padding-top: 0;
+        align-items: center;
+
+        &__box {
+            &-title {
+                font-size: 32px;
+            }
+
+            &-text {
+                font-size: 14px;
+                line-height: 22px;
+                width: 343px;
+            }
+        }
+    }
+
+    .advertisement {
+        padding-top: 0;
+
+        &__picture {
+            display: none;
+        }
+
+        &__picture-mobile {
+            display: block;
+            padding-top: 64px;
         }
     }
 }

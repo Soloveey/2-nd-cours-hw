@@ -51,13 +51,15 @@ body {
             line-height: normal;
             transition: 0.3s;
         }
-        &-button:hover{
+
+        &-button:hover {
             background: #EB443F;
         }
     }
 }
 
-.middle {padding-top: 128px;
+.middle {
+    padding-top: 128px;
     background-image: url(img/middle__img.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -68,18 +70,19 @@ body {
     &__box {
         padding-bottom: 128px;
         display: flex;
-        gap: 32px;        
+        gap: 32px;
 
         &-play {
             position: relative;
             transition: all 0.1s;
         }
-        &-play:hover{
-           
-            box-shadow: 0 0 0 3px #44D2FF; 
+
+        &-play:hover {
+
+            box-shadow: 0 0 0 3px #44D2FF;
             border-radius: 16px;
         }
-       
+
 
         &-lead {
             position: absolute;
@@ -100,7 +103,73 @@ body {
         }
     }
 }
+.top__block{
+    height: 800px;
+    background-image: url(img/background__season.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+     display: grid;
+    grid-template-columns: repeat(12, 1fr);
+ 
+}
+.season { 
+    padding-top: 282px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+        grid-column: span 6; 
+
+
+    &__box {
+    
+        &-title {
+            color: #FFF;
+            font-size: 48px;
+            font-weight: 700;
+        }
+
+        &-text {
+            color: #FFF;
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 32px;
+        }
+
+        &-button {
+            width: 234.063px;
+            height: 48.603px;
+            border-radius: 30px;
+            background: $color-button;
+            font-family: inherit;
+            color: $color-text;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            transition: 0.3s;
+        }
+
+        &-button:hover {
+            background: #EB443F;
+        }
+    }
+}
+
+.span{
+    grid-column: span 1; 
+}  
+
+.advertisement{
+    padding-top: 233px;
+   grid-column: span 5; 
+    &__picture-mobile{
+       display: none
+    }
+   
+}
 
 @import"mobile";
 @import"tablet";
-
