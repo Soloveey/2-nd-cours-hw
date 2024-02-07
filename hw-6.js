@@ -17,9 +17,15 @@ console.log(number);
 
 //Задание 4
 
-let i = 1;
-let one = [[i, i, i], [i, i, i], [i, i, i]];
-console.log(one);
+let numberOne = [];
+for (let i = 0; i < 3; i++) {
+    numberOne[i] = [];
+    for (let j = 0; j < 3; j++) {
+        numberOne[i][j] = 1;
+    }
+}
+console.log(numberOne);
+
 
 //Задание 5 
 let a = [1, 1, 1];
@@ -50,17 +56,19 @@ console.log(lineS);
 
 
 //Задание 9
-let arr = [[1, 2, 3], [4, 5, 6]];
-for (let arrIn of arr) {
-    console.log(arrIn);
-}
+let aRR = [[1, 2, 3,], [4, 5, 6]];
+let flatA = aRR.flat();
+console.log(flatA);
 
 
 //Задание 10
+
 let t = [1, 2, 3, 4, 5];
-for (let i = 0; i < t.length; i++) {
-    if (n = i + t);
-    console.log(n);
+for (let i = 0; i < t.length - 1; i++){
+    let a = t[i];
+    let n = t[i + 1];
+    let sum = n + a;
+    console.log(sum);
 }
 
 //Задание 11
