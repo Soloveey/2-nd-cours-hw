@@ -103,7 +103,8 @@ body {
         }
     }
 }
-.top__block{
+
+.top__block {
     height: 800px;
     background-image: url(img/background__season.jpg);
     background-repeat: no-repeat;
@@ -111,20 +112,25 @@ body {
     background-size: cover;
     padding-left: calc(50% - 600px);
     padding-right: calc(50% - 600px);
-     display: grid;
+    display: grid;
     grid-template-columns: repeat(12, 1fr);
- 
+
 }
-.season { 
+
+.season {
     padding-top: 282px;
     display: flex;
     flex-direction: column;
     gap: 32px;
-        grid-column: span 6; 
+    grid-column: span 6;
 
 
     &__box {
-    
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        grid-column: span 6;
+
         &-title {
             color: #FFF;
             font-size: 48px;
@@ -158,17 +164,82 @@ body {
     }
 }
 
-.span{
-    grid-column: span 1; 
-}  
+.span {
+    grid-column: span 1;
+}
 
-.advertisement{
+.advertisement {
     padding-top: 233px;
-   grid-column: span 5; 
-    &__picture-mobile{
-       display: none
+    grid-column: span 5;
+
+    &__picture-mobile {
+        display: none;
     }
-   
+
+}
+
+.middle__block {
+    height: 800px;
+    background-image: url(img/middle__block.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.guess__words {
+    padding-top: 239px;
+    grid-column: span 5;
+    &-mobile{
+        display: none;
+    }
+
+}
+
+.remember {
+    grid-column: span 6;
+
+    &__box {
+        padding-top: 282px;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+
+
+        &-title {
+            color: #FFF;
+            font-size: 48px;
+            font-weight: 700;
+        }
+
+        &-text {
+            color: #FFF;
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 32px;
+        }
+
+        &-button {
+            width: 234.063px;
+            height: 48.603px;
+            border-radius: 30px;
+            background: $color-button;
+            font-family: inherit;
+            color: $color-text;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            transition: 0.3s;
+        }
+
+        &-button:hover {
+            background: #EB443F;
+        }
+    }
 }
 
 @import"mobile";

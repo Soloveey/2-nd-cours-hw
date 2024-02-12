@@ -52,16 +52,31 @@
         <div class="season center">
             <div class="season__box">
                 <h2 class="season__box-title">Времена года!</h2>
+                <p class="season__box-text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к
+                    какому времени года он относится
+                </p>
+                <button onclick="seasonYears()" class="season__box-button">Играть!</button>
             </div>
-            <p class="season__box-text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к
-                какому времени года он относится
-            </p>
-            <button onclick="seasonYears()" class="season__box-button">Играть!</button>
         </div>
         <div class="span"></div>
         <div class="advertisement">
             <img class="advertisement__picture" src="img/advertisement__picture.png" alt="Картинка">
             <img class="advertisement__picture-mobile" src="img/advertisement__picture-mobile.png" alt="Картинка">
+        </div>
+    </section>
+    <section class="middle__block">
+        <div class="guess__words">
+            <img class="guess__words-picture" src="img/guess__words.png" alt="Картинка">
+            <img class="guess__words-mobile" src="img/guess__words-mobile.png" alt="Картинка">
+        </div>
+        <div class="span"></div>
+        <div class="remember center">
+            <div class="remember__box">
+                <h2 class="remember__box-title">Запомни слова</h2>
+                <p class="remember__box-text">При нажатии на кнопку играть, вы увидите несколько слов, которые вам
+                    необходимо запомнить.</p>
+                <button onclick="guessTheWord()" class="remember__box-button">Играть</button>
+            </div>
         </div>
     </section>
     <script src="script.js"></script>

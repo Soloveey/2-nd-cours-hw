@@ -42,42 +42,94 @@
         }
     }
 
-    .span{
+    .span {
         display: none;
     }
 
-    .top__block{
-       display: flex;
-       align-items: center;
+    .top__block {
+        display: flex;
+        align-items: center;
         text-align: center;
         justify-content: center;
         flex-direction: column;
-        padding-top: 127px;
+        padding-top: 51px;
+        height: 653px;
     }
 
-    .season{
-      padding-top: 0;
-      align-items: center;
-      &__box{
-        &-title{
-            font-size: 32px;
+    .season {
+        padding-top: 0;
+        align-items: center;
+
+        &__box {
+            display: flex;
+            align-content: center;
+            align-items: center;
+
+            &-title {
+                font-size: 32px;
+            }
+
+            &-text {
+                font-size: 14px;
+                line-height: 22px;
+                width: 343px;
+            }
         }
-        &-text{
-            font-size: 14px;
-            line-height: 22px;
-            width: 343px;
-        }
-    }
     }
 
-    .advertisement{
-     padding-top: 0;
-        &__picture{
-           display: none;
+    .advertisement {
+        padding-top: 0;
+
+        &__picture {
+            display: none;
         }
-        &__picture-mobile{
+
+        &__picture-mobile {
             display: block;
             padding-top: 64px;
+        }
+    }
+
+    .middle__block {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-direction: column-reverse;
+        padding-top: 51px;
+        height: 653px;
+    }
+
+    .guess__words {
+        padding-top: 64px;
+
+        &-picture {
+            display: none;
+            padding-top: 64px;
+        }
+
+    }
+
+    .remember {
+        padding-top: 0;
+        align-items: center;
+
+        &__box {
+            display: flex;
+            align-content: center;
+            align-items: center;
+            padding-top: 0;
+
+            &-title {
+                font-size: 32px;
+            }
+
+            &-text {
+                font-size: 14px;
+                line-height: 22px;
+                width: 343px;
+            }
         }
     }
 }

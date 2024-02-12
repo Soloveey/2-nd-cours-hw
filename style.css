@@ -106,6 +106,12 @@ body {
   gap: 32px;
   grid-column: span 6;
 }
+.season__box {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  grid-column: span 6;
+}
 .season__box-title {
   color: #FFF;
   font-size: 48px;
@@ -144,6 +150,63 @@ body {
 }
 .advertisement__picture-mobile {
   display: none;
+}
+
+.middle__block {
+  height: 800px;
+  background-image: url(img/middle__block.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.guess__words {
+  padding-top: 239px;
+  grid-column: span 5;
+}
+.guess__words-mobile {
+  display: none;
+}
+
+.remember {
+  grid-column: span 6;
+}
+.remember__box {
+  padding-top: 282px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.remember__box-title {
+  color: #FFF;
+  font-size: 48px;
+  font-weight: 700;
+}
+.remember__box-text {
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 32px;
+}
+.remember__box-button {
+  width: 234.063px;
+  height: 48.603px;
+  border-radius: 30px;
+  background: #9C0332;
+  font-family: inherit;
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  transition: 0.3s;
+}
+.remember__box-button:hover {
+  background: #EB443F;
 }
 
 @media (max-width: 767px) {
@@ -187,10 +250,16 @@ body {
     text-align: center;
     justify-content: center;
     flex-direction: column;
-    padding-top: 127px;
+    padding-top: 51px;
+    height: 653px;
   }
   .season {
     padding-top: 0;
+    align-items: center;
+  }
+  .season__box {
+    display: flex;
+    align-content: center;
     align-items: center;
   }
   .season__box-title {
@@ -210,6 +279,41 @@ body {
   .advertisement__picture-mobile {
     display: block;
     padding-top: 64px;
+  }
+  .middle__block {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    padding-top: 51px;
+    height: 653px;
+  }
+  .guess__words {
+    padding-top: 64px;
+  }
+  .guess__words-picture {
+    display: none;
+    padding-top: 64px;
+  }
+  .remember {
+    padding-top: 0;
+    align-items: center;
+  }
+  .remember__box {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding-top: 0;
+  }
+  .remember__box-title {
+    font-size: 32px;
+  }
+  .remember__box-text {
+    font-size: 14px;
+    line-height: 22px;
+    width: 343px;
   }
 }
 @media (min-width: 426px) and (max-width: 1024px) {
@@ -262,6 +366,11 @@ body {
     padding-top: 0;
     align-items: center;
   }
+  .season__box {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
   .season__box-title {
     font-size: 32px;
   }
@@ -279,5 +388,40 @@ body {
   .advertisement__picture-mobile {
     display: block;
     padding-top: 64px;
+  }
+  .middle__block {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    padding-top: 51px;
+    height: 653px;
+  }
+  .guess__words {
+    padding-top: 64px;
+  }
+  .guess__words-picture {
+    display: none;
+    padding-top: 64px;
+  }
+  .remember {
+    padding-top: 0;
+    align-items: center;
+  }
+  .remember__box {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding-top: 0;
+  }
+  .remember__box-title {
+    font-size: 32px;
+  }
+  .remember__box-text {
+    font-size: 14px;
+    line-height: 22px;
+    width: 343px;
   }
 }/*# sourceMappingURL=style.css.map */
