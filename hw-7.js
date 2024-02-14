@@ -35,12 +35,13 @@ console.log(randomNumber);
 // Задание 6
 const numberB = n => {
   const result = [];
-  for (let i = n; i >= 1; i--) {
-    result.push(Math.floor(Math.random() * i));
+  for (let i = n / 2; i >= 1; i--) {
+    result.push(Math.floor(Math.random() * n));
   }
-  return result;
+ return result;
 }
-console.log(numberB(10 / 2));
+console.log(numberB(7));
+
 
 // Задание 7
 function getRandomInt(minValue, maxValue) {

@@ -30,7 +30,7 @@ numberNew(67);
 
 //3.2
 function numberSquar(c) {
-    return (c * c);
+    return c * c;
 }
 console.log(numberSquar(55));
 
